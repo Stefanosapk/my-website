@@ -49,7 +49,7 @@ export default Vue.extend({
         info:
           'Stefanos is an experienced Software Engineer who loves using modern\n' +
           'approaches. Not only does he have an excellent understanding of Web\n' +
-          'development standards but also he has solid knowledge of E2E testing.',
+          'development standards but also has solid knowledge of E2E testing.',
       },
       socials: [
         {
