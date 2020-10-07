@@ -1,0 +1,11 @@
+.icon-github        { mask: url('/images/icons/ic-profile/ic-github.svg') }
+.icon-linkedin        { mask: url('/images/icons/ic-profile/ic-linkedin.svg') }
+
+
+.icon {
+  display: inline-block;
+  width: 30px; height: 30px;
+  transition:  all 0.3s ease-in-out;
+  mask-size: cover;
+  background: #A4B1CD;
+}

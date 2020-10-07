@@ -1,0 +1,84 @@
+@import '~vuetify/src/styles/styles.sass';
+@import './colors.scss';
+@import './variables.scss';
+@import './fonticons';
+@import './fonts';
+
+html {
+  overflow-y: hidden!important;
+}
+*::-webkit-scrollbar {
+  width: 6px;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $blue-nav-active transparent;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: $blue-nav-active ;
+  border-radius: 4px;
+  border: 3px solid transparent;
+}
+
+.theme--dark.application{
+
+  @extend .bg-color-blue-bg;
+  @extend .color-main;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+
+.hover-greenText:hover{ .v-icon{ @extend .color-green; }}
+.hover-green:hover{ .v-icon{ @extend .bg-color-green; }}
+.hover-white:hover{ .v-icon{ @extend .bg-color-white; }}
+
+.letterSpacing0{ letter-spacing: 0px!important; }
+.letterSpacing1{ letter-spacing: 1px!important; }
+.letterSpacing2{ letter-spacing: 2px!important; }
+.letterSpacing3{ letter-spacing: 3px!important; }
+.letterSpacing4{ letter-spacing: 4px!important; }
+
+.font-size10 { font-size: 10px!important; }
+.font-size11 { font-size: 11px!important; }
+.font-size12 { font-size: 12px!important; }
+.font-size13 { font-size: 13px!important; }
+.font-size14 { font-size: 14px!important; }
+.font-size15 { font-size: 15px!important; }
+.font-size16 { font-size: 16px!important; }
+.font-size18 { font-size: 18px!important; }
+.font-size20 { font-size: 20px!important; }
+.font-size22 { font-size: 22px!important; }
+.font-size24 { font-size: 24px!important; }
+.font-size26 { font-size: 26px!important; }
+.font-size32 { font-size: 32px!important; }
+.font-size36 { font-size: 36px!important; }
+.font-size42 { font-size: 42px!important; }
+.font-size60 { font-size: 60px!important; }
+.font-size100 { font-size: 100px!important; }
+
+.fontItalic     {font-style: italic}
+.fontBlack      {font-weight: 900 }
+.fontBold       {font-weight: 700 }
+.fontSemiBold   {font-weight: 600 }
+.fontMedium     {font-weight: 500 }
+.fontRegular    {font-weight: 400 }
+.fontLight      {font-weight: 300 }
+.fontExtraLight {font-weight: 200 }
+.fontThin       {font-weight: 100 }
+
+.uppercase { text-transform: uppercase;}
+.lowercase { text-transform: lowercase;}
+.cursorPointer { cursor: pointer; }
+
+
+.line-height-5 { line-height: 5; }
+.line-height-10 { line-height: 10; }
+
+.position-relative { position: relative!important; }
