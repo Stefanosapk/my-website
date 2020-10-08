@@ -13,7 +13,7 @@ export default {
     script: [
       {
         src:
-          'http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js',
+          'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js',
       },
       {
         src:
