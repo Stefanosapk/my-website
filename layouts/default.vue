@@ -1,6 +1,7 @@
 <template>
   <v-app dark>
     <v-main>
+      <SpaceElevator></SpaceElevator>
       <v-container fluid>
         <nuxt />
       </v-container>
