@@ -128,7 +128,7 @@ export default {
 
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 
 .container {
   position: absolute;
@@ -138,12 +138,14 @@ export default {
   justify-content: center;
   overflow: hidden;
   background: #222222;
-
 }
+
 svg {
   position: fixed;
   height: 100%;
+  width: 100%;
 }
+
 .lines {
   opacity: 0.05;
 }
