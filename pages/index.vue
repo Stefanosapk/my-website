@@ -1,6 +1,5 @@
 <template>
   <div>
-    <SpaceElevator></SpaceElevator>
     <v-row no-gutters>
       <v-col cols="12" class="text-right">
         <a
