@@ -18,10 +18,10 @@
         <div class="title-styling">
           {{ items.name }} - {{ items.title }}
         </div>
-        <div class="avatar-style rounded-lg">
-          <img
-            width="150"
-            src="/images/avatar.jpg"
+        <div class="avatar-style">
+          <img class="rounded-lg"
+            width="130"
+            src="/images/avatar.jpeg"
             alt="Avatar"
           />
         </div>
@@ -72,7 +72,7 @@ export default Vue.extend({
       {
         hid: 'index.vue',
         name: 'Stefanos Apkarian',
-        content: 'Experienced Software Engineer.',
+        content: 'Experienced Software Engineer',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
