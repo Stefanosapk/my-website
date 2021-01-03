@@ -4,6 +4,7 @@
       <v-col cols="12" class="text-right">
         <a
           v-for="social in socials"
+          :id="social.name"
           :key="social.id"
           :href="social.url"
           target="_blank"
@@ -17,9 +18,10 @@
       <v-col cols="12" sm="8" md="6">
         <div class="title-styling">
           {{ items.name }} - {{ items.title }}
-        </div>
+          </div>
         <div class="avatar-style">
-          <img class="rounded-lg"
+          <img
+            class="rounded-lg"
             width="130"
             src="/images/avatar.jpeg"
             alt="Avatar"
@@ -53,11 +55,13 @@ export default Vue.extend({
       socials: [
         {
           id: 1,
-          url: 'https://www.linkedin.com/in/stefanosapkarian',
+          name: 'linkedin',
+          url: 'https://www.linkedin.com/in/stefanosapkarian123',
           icon: 'icon-linkedin',
         },
         {
           id: 2,
+          name: 'github',
           url: 'https://github.com/Stefanosapk',
           icon: 'icon-github',
         },
@@ -91,15 +95,14 @@ export default Vue.extend({
   @extend .line-height-5;
 }
 
-.info-text{
+.info-text {
   text-align: center;
   @extend .tk-neue-haas-unica;
   @extend .position-relative;
 }
 
-.avatar-style{
+.avatar-style {
   text-align: center;
   @extend .position-relative;
 }
-
 </style>
