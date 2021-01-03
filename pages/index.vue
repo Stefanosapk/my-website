@@ -10,16 +10,14 @@
           target="_blank"
           class="bg-blue-onHover"
         >
-          <v-icon> {{ social.icon }} mr-4 ma-1</v-icon>
+          <v-icon> {{ social.icon }} mr-4 ma-1 icon-animation</v-icon>
         </a>
       </v-col>
     </v-row>
     <v-row justify="center" align="center">
       <v-col cols="12" sm="8" md="6">
-        <div class="title-styling">
-          {{ items.name }} - {{ items.title }}
-          </div>
-        <div class="avatar-style">
+        <div class="title-styling">{{ items.name }} - {{ items.title }}</div>
+        <div class="avatar-style animated fadeIn">
           <img
             class="rounded-lg"
             width="130"
@@ -104,5 +102,24 @@ export default Vue.extend({
 .avatar-style {
   text-align: center;
   @extend .position-relative;
+}
+
+.icon-animation:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 </style>
