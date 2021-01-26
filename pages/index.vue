@@ -54,7 +54,7 @@ export default Vue.extend({
         {
           id: 1,
           name: 'linkedin',
-          url: 'https://www.linkedin.com/in/stefanosapkarian123',
+          url: 'https://www.linkedin.com/in/stefanosapkarian',
           icon: 'icon-linkedin',
         },
         {
