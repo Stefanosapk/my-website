@@ -1,20 +1,6 @@
 <template>
   <div>
-    <v-row no-gutters>
-      <v-col cols="12" class="text-right">
-        <a
-          v-for="social in socials"
-          :id="social.name"
-          :key="social.id"
-          :href="social.url"
-          target="_blank"
-          class="bg-blue-onHover"
-        >
-          <v-icon> {{ social.icon }} mr-4 ma-1 icon-animation</v-icon>
-        </a>
-      </v-col>
-    </v-row>
-    <v-row justify="center" align="center">
+    <v-row justify="center" align="center" style="height: 35vw">
       <v-col cols="12" sm="8" md="6">
         <div class="title-styling">{{ items.name }} - {{ items.title }}</div>
         <div class="avatar-style animated fadeIn">
@@ -50,20 +36,6 @@ export default Vue.extend({
           'approaches. Not only does he have an excellent understanding of Web\n' +
           'development standards but also has solid knowledge of E2E testing.',
       },
-      socials: [
-        {
-          id: 1,
-          name: 'linkedin',
-          url: 'https://www.linkedin.com/in/stefanosapkarian',
-          icon: 'icon-linkedin',
-        },
-        {
-          id: 2,
-          name: 'github',
-          url: 'https://github.com/Stefanosapk',
-          icon: 'icon-github',
-        },
-      ],
     }
   },
   head: {
@@ -104,10 +76,6 @@ export default Vue.extend({
   @extend .position-relative;
 }
 
-.icon-animation:hover {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
 @keyframes fadeIn {
   from {
     opacity: 0;
