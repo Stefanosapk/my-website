@@ -10,7 +10,7 @@
             sm="5"
             md="3"
             width="300"
-            class="mx-4 content cursorPointer"
+            class="mx-4 content"
           >
             <div class="content-overlay"></div>
             <img
@@ -26,7 +26,7 @@
                 v-if="project.githubUrl"
                 :href="project.githubUrl"
                 target="_blank"
-                class=""
+                class="cursorPointer"
               >
                 <v-icon> icon-github mr-4 ma-1</v-icon>
               </a>
@@ -34,7 +34,7 @@
                 v-if="project.site"
                 :href="project.site"
                 target="_blank"
-                class=""
+                class="cursorPointer"
               >
                 <v-icon> mdi-link mr-4 ma-1 </v-icon>
               </a>
