@@ -3,6 +3,20 @@
     <v-main>
       <SpaceElevator></SpaceElevator>
       <v-container fluid>
+        <v-tabs right>
+          <v-tab to="/">About Me</v-tab>
+          <v-tab to="/projects">Projects</v-tab>
+          <a
+            v-for="social in socials"
+            :id="social.name"
+            :key="social.id"
+            :href="social.url"
+            target="_blank"
+            class="bg-blue-onHover mx-2 mt-2"
+          >
+            <v-icon> {{ social.icon }} mr-4 ma-1 icon-animation</v-icon>
+          </a>
+        </v-tabs>
         <nuxt />
       </v-container>
     </v-main>
@@ -12,8 +26,31 @@
 <script>
 export default {
   data() {
-    return {}
+    return {
+      socials: [
+        {
+          id: 1,
+          name: 'linkedin',
+          url: 'https://www.linkedin.com/in/stefanosapkarian',
+          icon: 'icon-linkedin',
+        },
+        {
+          id: 2,
+          name: 'github',
+          url: 'https://github.com/Stefanosapk',
+          icon: 'icon-github',
+        },
+      ],
+    }
   },
 }
 </script>
-
+<style lang="scss">
+@import '@/assets/styles.scss';
+.v-tabs-bar {
+  background-color: transparent !important;
+}
+.v-tab {
+  margin: 0 8px;
+}
+</style>

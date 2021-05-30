@@ -1,88 +1,196 @@
-$blue-bg:          #141D2B;
-$blue-nav:         #111927;
-$blue-nav-active:  #1A2332;
-$blue-light:       #263143;
-$blue-new-ctf:     #121923;
-$blue-dark-join:   #0E141D;
-$white:            #ffffff;
-$green:            #9FEF00;
-$font-color:       #A4B1CD;
-$yellow:           #FFAF00;
-$yellow-intense:   #FFC600;
-$red:              #FF3E3E;
-$red-intense:      #FF2548;
-$blue-info:        #3EB1FF;
-$blue-info-intense:#0086FF;
-$purple:           #9400FF;
-$purple-light:     #986CE8;
-$silver:           #DFDFDF;
-$bronze:           #ED7032;
-$pink:             #f0f;
-$turquoise:        #0ff;
+$blue-bg: #141d2b;
+$blue-nav: #111927;
+$blue-nav-active: #1a2332;
+$blue-light: #263143;
+$blue-new-ctf: #121923;
+$blue-dark-join: #0e141d;
+$white: #ffffff;
+$green: #9fef00;
+$font-color: #a4b1cd;
+$yellow: #ffaf00;
+$yellow-intense: #ffc600;
+$red: #ff3e3e;
+$red-intense: #ff2548;
+$blue-info: #3eb1ff;
+$blue-info-intense: #0086ff;
+$purple: #9400ff;
+$purple-light: #986ce8;
+$silver: #dfdfdf;
+$bronze: #ed7032;
+$pink: #f0f;
+$turquoise: #0ff;
 
-$disabled-bg:      rgba($font-color, 0.05);
-$disabled-font:    rgba($font-color, 0.4);
+$disabled-bg: rgba($font-color, 0.05);
+$disabled-font: rgba($font-color, 0.4);
 
-.color-main            { color: $font-color!important; }
-.color-green           { color: $green!important;  }
-.color-white           { color: $white!important;  }
-.color-blue            { color: $blue-bg!important;}
-.color-blue-nav        { color: $blue-nav!important;}
-.color-blue-nav-active { color: $blue-nav-active!important;}
-.color-blue-dark-join  { color: $blue-dark-join!important;}
-.color-yellow          { color: $yellow!important;}
-.color-red             { color: $red!important;}
-.color-purple           { color: $purple!important;}
-.color-blue-info       { color: $blue-info!important;}
-.color-blue-info-intense { color: $blue-info-intense!important;}
-.color-turquoise { color: $turquoise!important;}
-.color-inherit         { color: inherit!important;}
-.color-transparent     { color: transparent!important;}
-.color-disabled        { color: $disabled-font!important;}
+.color-main {
+  color: $font-color !important;
+}
+.color-green {
+  color: $green !important;
+}
+.color-white {
+  color: $white !important;
+}
+.color-blue {
+  color: $blue-bg !important;
+}
+.color-blue-nav {
+  color: $blue-nav !important;
+}
+.color-blue-nav-active {
+  color: $blue-nav-active !important;
+}
+.color-blue-dark-join {
+  color: $blue-dark-join !important;
+}
+.color-yellow {
+  color: $yellow !important;
+}
+.color-red {
+  color: $red !important;
+}
+.color-purple {
+  color: $purple !important;
+}
+.color-blue-info {
+  color: $blue-info !important;
+}
+.color-blue-info-intense {
+  color: $blue-info-intense !important;
+}
+.color-turquoise {
+  color: $turquoise !important;
+}
+.color-inherit {
+  color: inherit !important;
+}
+.color-transparent {
+  color: transparent !important;
+}
+.color-disabled {
+  color: $disabled-font !important;
+}
 
-.bg-transparent              { background-color: transparent!important; }
-.bg-white                    { background-color: $white!important; }
-.bg-color-blue-bg            { background-color: $blue-bg!important; }
-.bg-color-blue-nav           { background-color: $blue-nav!important; }
-.bg-color-blue-nav-active    { background-color: $blue-nav-active!important; }
-.bg-color-blue-dark-join     { background-color: $blue-dark-join!important; }
-.bg-color-yellow             { background-color: $yellow!important; }
-.bg-color-yellow-rgba        { background-color: rgba($yellow, 0.1)!important; }
-.bg-color-red                { background-color: $red!important; }
-.bg-color-white              { background-color: $white!important;  }
-.bg-color-red-rgba           { background-color: rgba($red, 0.1)!important; }
-.bg-color-green              { background-color: $green!important; }
-.bg-color-green-rgba         { background-color: rgba($green, 0.1)!important; }
-.bg-color-gray-rgba          { background-color: rgba($font-color, 0.1)!important; }
-.bg-color-blue-info          { background-color: $blue-info!important; }
-.bg-color-blue-info-rgba     { background-color: rgba($blue-info, 0.1)!important; }
-.bg-color-blue-info-intense  { background-color: $blue-info-intense!important; }
-.bg-color-blue-info-intense-rgba     { background-color: rgba($blue-info-intense, 0.1)!important; }
-.bg-color-main               { background-color: $font-color;                }
-.bg-color-main-important     { background-color: $font-color!important;      }
-.bg-color-purple             { background-color: $purple!important;      }
-.bg-color-purple-light       { background-color: $purple-light!important;      }
-.bg-color-purple-rgba        { background-color: rgba($purple, 0.1)!important; }
-.bg-color-purple-light-rgba  { background-color: rgba($purple-light, 0.1)!important; }
+.bg-transparent {
+  background-color: transparent !important;
+}
+.bg-white {
+  background-color: $white !important;
+}
+.bg-color-blue-bg {
+  background-color: $blue-bg !important;
+}
+.bg-color-blue-nav {
+  background-color: $blue-nav !important;
+}
+.bg-color-blue-nav-active {
+  background-color: $blue-nav-active !important;
+}
+.bg-color-blue-dark-join {
+  background-color: $blue-dark-join !important;
+}
+.bg-color-yellow {
+  background-color: $yellow !important;
+}
+.bg-color-yellow-rgba {
+  background-color: rgba($yellow, 0.1) !important;
+}
+.bg-color-red {
+  background-color: $red !important;
+}
+.bg-color-white {
+  background-color: $white !important;
+}
+.bg-color-red-rgba {
+  background-color: rgba($red, 0.1) !important;
+}
+.bg-color-green {
+  background-color: $green !important;
+}
+.bg-color-green-rgba {
+  background-color: rgba($green, 0.1) !important;
+}
+.bg-color-gray-rgba {
+  background-color: rgba($font-color, 0.1) !important;
+}
+.bg-color-blue-info {
+  background-color: $blue-info !important;
+}
+.bg-color-blue-info-rgba {
+  background-color: rgba($blue-info, 0.1) !important;
+}
+.bg-color-blue-info-intense {
+  background-color: $blue-info-intense !important;
+}
+.bg-color-blue-info-intense-rgba {
+  background-color: rgba($blue-info-intense, 0.1) !important;
+}
+.bg-color-main {
+  background-color: $font-color;
+}
+.bg-color-main-important {
+  background-color: $font-color !important;
+}
+.bg-color-purple {
+  background-color: $purple !important;
+}
+.bg-color-purple-light {
+  background-color: $purple-light !important;
+}
+.bg-color-purple-rgba {
+  background-color: rgba($purple, 0.1) !important;
+}
+.bg-color-purple-light-rgba {
+  background-color: rgba($purple-light, 0.1) !important;
+}
 
-.bg-color-silver             { background-color: $silver!important; }
-.bg-color-silver-rgba        { background-color: rgba($silver,0.1)!important; }
-.bg-color-bronze             { background-color: $bronze!important; }
-.bg-color-bronze-rgba        { background-color: rgba($bronze,0.1)!important; }
-.bg-color-pink               { background-color: $pink!important; }
-.bg-color-turquoise          { background-color: $turquoise!important; }
+.bg-color-silver {
+  background-color: $silver !important;
+}
+.bg-color-silver-rgba {
+  background-color: rgba($silver, 0.1) !important;
+}
+.bg-color-bronze {
+  background-color: $bronze !important;
+}
+.bg-color-bronze-rgba {
+  background-color: rgba($bronze, 0.1) !important;
+}
+.bg-color-pink {
+  background-color: $pink !important;
+}
+.bg-color-turquoise {
+  background-color: $turquoise !important;
+}
 
 //icons
-.bg-green-onHover:hover { .v-icon{@extend .bg-color-green;}}
-.bg-blue-onHover:hover { .v-icon{@extend .bg-color-blue-info;}}
-.bg-red-onHover:hover { .v-icon{@extend .bg-color-red;}}
-
+.bg-green-onHover:hover {
+  .v-icon {
+    @extend .bg-color-green;
+  }
+}
+.bg-blue-onHover:hover {
+  .v-icon {
+    @extend .bg-color-blue-info;
+  }
+}
+.bg-red-onHover:hover {
+  .v-icon {
+    @extend .bg-color-red;
+  }
+}
 
 .disabled {
-  background-color: $disabled-bg!important;
+  background-color: $disabled-bg !important;
   //border-color: rgba(164, 177, 205, 0.05) !important;
-  color: $disabled-font!important;
+  color: $disabled-font !important;
   pointer-events: none;
   border: 0 !important;
   opacity: 1;
+}
+
+.icon-animation:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
