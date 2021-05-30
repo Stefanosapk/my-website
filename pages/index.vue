@@ -14,7 +14,7 @@
         </a>
       </v-col>
     </v-row>
-    <v-row justify="center" align="center">
+    <v-row justify="center" align="center" style="height: 35vw">
       <v-col cols="12" sm="8" md="6">
         <div class="title-styling">{{ items.name }} - {{ items.title }}</div>
         <div class="avatar-style animated fadeIn">
