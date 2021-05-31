@@ -5,7 +5,7 @@
         <div class="title-styling">{{ items.name }} - {{ items.title }}</div>
         <div class="avatar-style animated fadeIn">
           <img
-            class="rounded-lg"
+            class="rounded-lg my-8"
             width="130"
             src="/images/avatar.jpeg"
             alt="Avatar"
@@ -32,7 +32,7 @@ export default Vue.extend({
         name: 'Stefanos Apkarian',
         title: 'Software Engineer',
         info:
-          'Stefanos is an experienced Software Engineer who loves using modern\n' +
+          'Stefanos is an Experienced Software Engineer who loves using modern\n' +
           'approaches. Not only does he have an excellent understanding of Web\n' +
           'development standards but also has solid knowledge of E2E testing.',
       },

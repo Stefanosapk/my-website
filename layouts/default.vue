@@ -40,6 +40,12 @@ export default {
           url: 'https://github.com/Stefanosapk',
           icon: 'icon-github',
         },
+        {
+          id: 3,
+          name: 'stackoverflow',
+          url: 'https://stackoverflow.com/users/8847587/lastm4n',
+          icon: 'icon-stackoverflow',
+        },
       ],
     }
   },
