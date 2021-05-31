@@ -9,19 +9,17 @@
             cols="auto"
             sm="5"
             md="3"
-            width="300"
-            class="mx-4 content"
+            class="mx-4 mt-12 content"
           >
             <div class="content-overlay"></div>
             <img
               :aspect-ratio="16 / 9"
-              width="300"
               :src="project.imgUrl"
-              class="mt-12 content-image"
+              class="content-image"
             />
             <div class="content-details fadeIn-bottom">
-              <h3 class="content-title">Pizza House</h3>
-              <p class="content-text color-main">{{ project.description }}</p>
+              <h3 class="content-title">{{ project.title }}</h3>
+              <p class="color-main">{{ project.description }}</p>
               <a
                 v-if="project.githubUrl"
                 :href="project.githubUrl"
@@ -59,6 +57,15 @@ export default {
           imgUrl: 'https://piiza-house.herokuapp.com/img/pizza-house.png',
           githubUrl: 'https://github.com/Stefanosapk/Order-Pizza',
           site: 'https://piiza-house.herokuapp.com/',
+        },
+        {
+          id: 2,
+          title: 'Stock Trader',
+          description: 'Vue.js application using Vuex and Vue Router',
+          imgUrl:
+            'https://www.zbw-mediatalk.eu/wp-content/uploads/2015/09/github-cover.jpg',
+          githubUrl: 'https://github.com/Stefanosapk/stock-trader',
+          site: '',
         },
       ],
     }
