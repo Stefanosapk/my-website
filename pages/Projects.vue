@@ -21,22 +21,22 @@
             />
             <div class="content-details fadeIn-bottom">
               <h3 class="content-title">Pizza House</h3>
-              <p class="content-text">{{ project.description }}</p>
+              <p class="content-text color-main">{{ project.description }}</p>
               <a
                 v-if="project.githubUrl"
                 :href="project.githubUrl"
                 target="_blank"
-                class="cursorPointer"
+                class="cursorPointer bg-blue-onHover"
               >
-                <v-icon> icon-github mr-4 ma-1</v-icon>
+                <v-icon> icon-github mr-4 ma-1 </v-icon>
               </a>
               <a
                 v-if="project.site"
                 :href="project.site"
                 target="_blank"
-                class="cursorPointer"
+                class="cursorPointer bg-blue-onHover"
               >
-                <v-icon> mdi-link mr-4 ma-1 </v-icon>
+                <v-icon> mdi-link mr-4 ma-1</v-icon>
               </a>
             </div>
           </v-col>
@@ -50,11 +50,22 @@
 export default {
   data() {
     return {
+      head: {
+        title: 'Projects',
+        meta: [
+          {
+            hid: 'Projects',
+            name: 'Stefanos Apkarian',
+            content: 'Projects implemented by Stefanos Apkarian',
+          },
+        ],
+      },
       projects: [
         {
           id: 1,
           title: 'Pizza House',
-          description: 'PHP-LARAVEL application with CRUD actions',
+          description:
+            'PHP-LARAVEL application with CRUD actions and deployment at Heroku',
           imgUrl: 'http://piiza-house.herokuapp.com/img/pizza-house.png',
           githubUrl: 'https://github.com/Stefanosapk/Order-Pizza',
           site: 'http://piiza-house.herokuapp.com/',
