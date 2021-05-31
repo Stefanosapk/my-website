@@ -50,28 +50,28 @@
 export default {
   data() {
     return {
-      head: {
-        title: 'Projects',
-        meta: [
-          {
-            hid: 'Projects',
-            name: 'Stefanos Apkarian',
-            content: 'Projects implemented by Stefanos Apkarian',
-          },
-        ],
-      },
       projects: [
         {
           id: 1,
           title: 'Pizza House',
           description:
             'PHP-LARAVEL application with CRUD actions and deployment at Heroku',
-          imgUrl: 'http://piiza-house.herokuapp.com/img/pizza-house.png',
+          imgUrl: 'https://piiza-house.herokuapp.com/img/pizza-house.png',
           githubUrl: 'https://github.com/Stefanosapk/Order-Pizza',
-          site: 'http://piiza-house.herokuapp.com/',
+          site: 'https://piiza-house.herokuapp.com/',
         },
       ],
     }
+  },
+  head: {
+    title: 'Projects',
+    meta: [
+      {
+        hid: 'Projects',
+        name: 'Stefanos Apkarian',
+        content: 'Projects implemented by Stefanos Apkarian',
+      },
+    ],
   },
 }
 </script>
