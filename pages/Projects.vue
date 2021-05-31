@@ -9,7 +9,7 @@
             cols="auto"
             sm="5"
             md="3"
-            class="mx-4 mt-12 content"
+            class="mx-6 mt-12 content"
           >
             <div class="content-overlay"></div>
             <img
