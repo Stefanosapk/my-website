@@ -2,16 +2,19 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   generate: {
-    fallback: true
+    fallback: true,
   },
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     titleTemplate: '%s',
-    title: 'my-website',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Simplicity is the soul of efficiency' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Simplicity is the soul of efficiency',
+      },
     ],
     script: [
       {
@@ -19,17 +22,14 @@ export default {
           'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js',
       },
       {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.4/gsap.min.js',
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.4/gsap.min.js',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [
-    '~/assets/styles.scss'
-  ],
+  css: ['~/assets/styles.scss'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
