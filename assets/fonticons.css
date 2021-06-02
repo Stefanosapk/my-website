@@ -1,6 +1,7 @@
 .icon-github        { mask: url('/images/icons/ic-profile/ic-github.svg') }
-.icon-linkedin        { mask: url('/images/icons/ic-profile/ic-linkedin.svg') }
-.icon-stackoverflow        { mask: url('/images/icons/ic-profile/stack-overflow.png') }
+.icon-linkedin      { mask: url('/images/icons/ic-profile/ic-linkedin.svg') }
+.icon-stackoverflow { mask: url('/images/icons/ic-profile/stack-overflow.png') }
+.icon-cssbattledev  { mask: url('/images/icons/ic-profile/cssbattledev.svg') }
 
 
 .icon {

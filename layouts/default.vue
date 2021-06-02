@@ -16,6 +16,15 @@
           >
             <v-icon> {{ social.icon }} mr-4 ma-1 icon-animation</v-icon>
           </a>
+          <a
+            :href="cssBattleDev.url"
+            target="_blank"
+            class="bg-blue-onHover mt-1"
+          >
+            <v-icon style="width: 43px; height: 43px">
+              {{ cssBattleDev.icon }} mr-4 ma-1 icon-animation</v-icon
+            >
+          </a>
         </v-tabs>
         <nuxt />
       </v-container>
@@ -47,6 +56,11 @@ export default {
           icon: 'icon-stackoverflow',
         },
       ],
+      cssBattleDev: {
+        name: 'cssbattledev',
+        url: 'https://cssbattle.dev/player/lastm4n',
+        icon: 'icon-cssbattledev',
+      },
     }
   },
 }
