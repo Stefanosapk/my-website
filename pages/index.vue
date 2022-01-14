@@ -6,7 +6,7 @@
         <div class="avatar-style animated fadeIn">
           <img
             class="rounded-lg my-8"
-            width="130"
+            width="220"
             src="/images/avatar.jpeg"
             alt="Avatar"
           />
@@ -37,6 +37,15 @@ export default Vue.extend({
           'development standards but also has solid knowledge of E2E testing.',
       },
     }
+  },
+  mounted() {
+    // window.onload = function () {
+    //   let frameElement = document.getElementById('dialogflowCSS')
+    //   let doc = frameElement.contentDocument
+    //   doc.body.innerHTML =
+    //     doc.body.innerHTML +
+    //     '<style>.b-agent-demo .b-agent-demo_result {background-color:yellow;}</style>'
+    // }
   },
   head: {
     title: 'Stefanos Apkarian',
