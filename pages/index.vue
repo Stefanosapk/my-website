@@ -6,7 +6,7 @@
         <div class="avatar-style animated fadeIn">
           <img
             class="rounded-lg my-8"
-            width="130"
+            width="220"
             src="/images/avatar.jpeg"
             alt="Avatar"
           />
