@@ -38,15 +38,6 @@ export default Vue.extend({
       },
     }
   },
-  mounted() {
-    // window.onload = function () {
-    //   let frameElement = document.getElementById('dialogflowCSS')
-    //   let doc = frameElement.contentDocument
-    //   doc.body.innerHTML =
-    //     doc.body.innerHTML +
-    //     '<style>.b-agent-demo .b-agent-demo_result {background-color:yellow;}</style>'
-    // }
-  },
   head: {
     title: 'Stefanos Apkarian',
     meta: [
